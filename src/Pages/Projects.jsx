@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import image1 from "../Assets/adventure rides.png"
+import image2 from "../Assets/Ridersconnect.png"
 const Projects = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -13,28 +14,23 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Project name 01",
-      role: "Role Title",
+      title: "Project 01",
+
+      name: "ADVENTURE RIDES",
+      link : "https://adventure-rides.vercel.app/",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem iste tenetur aperiam totam...",
+        "Adventure Rides is a modern, responsive web application dedicated to adventure tourism. Built with React.js and deployed on Vercel, the platform offers users an engaging interface to explore various outdoor activities and destinations. Emphasizing dynamic content and seamless navigation, the site reflects a commitment to delivering immersive digital experiences for travel enthusiasts.",
       image:
-        "https://img.freepik.com/free-photo/html-system-websites-collage-design_23-2150432963.jpg?size=626&ext=jpg",
+        image1
     },
     {
-      title: "Project name 02",
-      role: "Role Title",
+      title: "Project 02",
+      name: "RIDERSCONNECT",
+      link: "https://vocal-klepon-4ae023.netlify.app/",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem iste tenetur aperiam totam...",
+        "RiderZConnect is a responsive web application dedicated to uniting motorcycle enthusiasts for group rides. Built with modern JavaScript frameworks and deployed on Netlify, the platform offers users an engaging interface to plan and share riding events. Emphasizing community building and seamless navigation, the site reflects a commitment to delivering immersive digital experiences for riders.",
       image:
-        "https://img.freepik.com/free-photo/html-system-websites-collage-design_23-2150432963.jpg?size=626&ext=jpg",
-    },
-    {
-      title: "Project name 03",
-      role: "Role Title",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem iste tenetur aperiam totam...",
-      image:
-        "https://img.freepik.com/free-photo/html-system-websites-collage-design_23-2150432963.jpg?size=626&ext=jpg",
+        image2
     },
   ];
 
@@ -53,18 +49,21 @@ const Projects = () => {
           >
             <div className="w-full md:w-1/2 p-6">
               <h2 className="text-2xl font-semibold text-blue-600 mb-2">
-                {project.title}
+                {project.title}  
               </h2>
-              <p className="text-base font-medium mb-4">{project.role}</p>
+              
+              <p className="text-base font-medium mb-4">{project.name}</p>
               <p className="text-sm text-justify leading-relaxed">
                 {project.description}
               </p>
+              <a href={project.link} className="cursor-pointer" target="_blank">Link : {project.link}</a>
+
             </div>
             <div className="w-full md:w-1/2">
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill"
               />
             </div>
           </div>
