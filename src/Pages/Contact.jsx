@@ -42,11 +42,11 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row gap-4 mb-6">
           <div className="flex-1">
             <label className="font-bold">First Name *</label>
-            <input name="name" type="text" onChange={handleChange} className="w-full border-b border-gray-400" required />
+            <input name="firstname" type="text" onChange={handleChange} className="w-full border-b border-gray-400" required />
           </div>
           <div className="flex-1">
             <label className="font-bold">Last Name *</label>
-            <input name="lastName" type="text" onChange={handleChange} className="w-full border-b border-gray-400" required />
+            <input name="lastname" type="text" onChange={handleChange} className="w-full border-b border-gray-400" required />
           </div>
         </div>
         <div className="mb-6">
