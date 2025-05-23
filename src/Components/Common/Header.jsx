@@ -41,7 +41,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-[70px] left-0 w-full bg-yellow-100 py-6 text-center flex flex-col gap-6 text-lg md:hidden">
+        <div className="absolute top-[70px] left-0 w-full bg-black py-6 text-center flex flex-col gap-6 text-lg md:hidden">
           <Link to="/" onClick={toggleMenu}>ABOUT ME</Link>
           <Link to="/resume" onClick={toggleMenu}>RESUME</Link>
           <Link to="/projects" onClick={toggleMenu}>PROJECTS</Link>

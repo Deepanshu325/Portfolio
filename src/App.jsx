@@ -2,7 +2,7 @@
 import React from 'react'
 import Home from "../src/Pages/Home"
 import Header from './Components/Common/Header'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom'
 import Resume from './Pages/Resume'
 import Footer from './Components/Common/Footer'
 import Projects from './Pages/Projects'
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
    
-     <BrowserRouter>
+     <HashRouter>
      <Header/>
      <ToastContainer/>
      <Routes>
@@ -24,7 +24,7 @@ const App = () => {
       <Route path="/contact" element={<Contact/>}/>
      </Routes>
      <Footer/>
-     </BrowserRouter>
+     </HashRouter>
     </div>
   )
 }
