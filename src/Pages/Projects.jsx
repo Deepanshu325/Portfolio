@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import image1 from "../Assets/adventure rides.png"
-import image2 from "../Assets/Ridersconnect.png"
+import image1 from "../Assets/adventure rides.webp"
+import image2 from "../Assets/Ridersconnect.webp"
 const Projects = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -35,10 +35,10 @@ const Projects = () => {
   ];
 
   return (
-    <div className="bg-purple-800 text-black">
+    <div className=" text-black ">
 
       {/* Projects */}
-      <main className="pt-24 px-4 md:px-16">
+      <main className="pt-24 px-4 md:px-16 ">
         <h1 className="text-white text-center text-3xl md:text-4xl font-bold mb-10">
           Projects
         </h1>
