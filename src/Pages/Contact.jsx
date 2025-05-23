@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/send-email', formData); // Update with your backend URL
+      await axios.post('https://portfoliobackend-po5r.onrender.com/send-email', formData); // Update with your backend URL
      
       
   toast.success("Message send sucessfully", {
