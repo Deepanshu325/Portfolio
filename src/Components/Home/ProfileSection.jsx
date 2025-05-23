@@ -36,10 +36,10 @@ const ProfileSection = () => {
        <Link to="/projects">  <button className="border border-black rounded-full px-6 py-2">PROJECTS</button> </Link> 
         </div>
         <p className="mt-8 text-sm text-blue-700">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste doloremque non perspiciatis amet placeat sed? In, voluptas officiis iure assumenda tempora accusantium ut quae cupiditate repellat ipsa exercitationem mollitia ab velit, sunt obcaecati quis laboriosam, temporibus molestiae rem delectus earum quisquam fuga hic!
+         <span className='text-orange-500'>I’m Deepanshu Shrivastav </span> — a creative and detail-oriented Web Developer with a focus on building dynamic, user-friendly websites and applications using the MERN stack.
         </p>
         <p className="mt-4 text-sm text-blue-700">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus provident non iste, mollitia recusandae voluptatem voluptates veniam nemo dolor ullam inventore numquam ipsum eos explicabo ut! Quod, iusto commodi?
+          I specialize in React.js, Node.js, MongoDB, and Tailwind CSS, and I have hands-on experience developing responsive and high-performance web applications. I enjoy transforming complex ideas into seamless user interfaces that work beautifully across all devices.
         </p>
       </div>
     </div>

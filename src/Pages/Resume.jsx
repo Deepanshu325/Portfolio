@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 const Resume = () => {
 
-   const Job = [ {option : "JOB POSITION",  ans: "FRONTEND INTERN" } , {option:"COMPANY NAME"  ,ans: "VIITORAPPS"},{option: "COMPANY LOCATION" , ans: " Plot No,15, DLF Phase 2, Sector 25, Gurugram, Shahpur, Haryana 122002" }]
-   const training = [ {option : "COURSE" , ans: "MERN STACK" } , {option:"INSTITUTE NAME" , ans: "DUCAT" }, {option: "INSTITUTE LOCATION" , ans: "SECTOR-14 , GURUGRAM, HARYANA "}]
-   const university = [{option : "UNIVERSITY NAME", ans : "MAHARISHI DAYANAND UNIVERSITY"}, {option : "DEGREE LEVEL" , ans: "BTECH"}, {option : "UNIVERSITY LOCATION", ans : "near Hero Honda, behind Marble Market, Sector 72A, Sector 34, Gurugram, Haryana 122004"}]
+   const Job = [ {option : "JOB POSITION",  ans: "FRONTEND INTERN" } , {option:"COMPANY NAME"  ,ans: "VIITORAPPS PRIVATE LIMITED"},{option: "COMPANY LOCATION" , ans: " Plot No,15, DLF Phase 2, Sector 25, Gurugram, Shahpur, Haryana 122002" }]
+   const training = [ {option : "COURSE" , ans: "MERN STACK" } , {option:"INSTITUTE NAME" , ans: "DUCAT TRAINING INSTITUTE" }, {option: "INSTITUTE LOCATION" , ans: "SECTOR-14 , GURUGRAM, HARYANA "}]
+   const university = [{option : "UNIVERSITY NAME", ans : "MAHARISHI DAYANAND UNIVERSITY"}, {option : "DEGREE LEVEL" , ans: "BACHELOR IN COMPUTER SCIENCE"}, {option : "UNIVERSITY LOCATION", ans : "near Hero Honda, behind Marble Market, Sector 72A, Sector 34, Gurugram, Haryana 122004"}]
    const [data , setData ] = useState(Job);
    const [train , setTrain ] = useState(training);
   return (
@@ -25,7 +25,7 @@ const Resume = () => {
           
                        
         <div className=" rounded-lg max-w-4xl mx-auto ">
-      <div className="text-blue-600 font-semibold text-lg mb-4">2035-2035</div>
+      <div className="text-blue-600 font-semibold text-lg mb-4">2025-2025</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-x-8">
         {data.map((item, index) => (
           <React.Fragment key={index}>
@@ -41,7 +41,7 @@ const Resume = () => {
 
         <section className="w-11/12 md:w-3/5 mx-auto bg-white my-6 p-6 rounded-md shadow-md">
          <div className=" rounded-lg max-w-4xl mx-auto ">
-      <div className="text-blue-600 font-semibold text-lg mb-4">2035-2035</div>
+      <div className="text-blue-600 font-semibold text-lg mb-4">2024-2025</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-x-8">
         {training.map((item, index) => (
           <React.Fragment key={index}>
@@ -59,7 +59,7 @@ const Resume = () => {
       
         <section className="w-11/12 md:w-3/5 mx-auto bg-white my-6 p-6 rounded-md shadow-md">
          <div className=" rounded-lg max-w-4xl mx-auto ">
-      <div className="text-blue-600 font-semibold text-lg mb-4">2035-2035</div>
+      <div className="text-blue-600 font-semibold text-lg mb-4">2021-2024</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-x-8">
         {university.map((item, index) => (
           <React.Fragment key={index}>
