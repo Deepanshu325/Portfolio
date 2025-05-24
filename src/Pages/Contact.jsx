@@ -56,7 +56,7 @@ const Contact = () => {
 
       <form
         className="max-w-2xl mx-auto p-6 bg-white shadow-md text-black w-full"
-        onSubmit={handleSubmit}
+        onSubmit={handleSubmit}    data-aos="fade-right"
       >
         <div className="flex flex-col md:flex-row gap-4 mb-6">
           <div className="flex-1">

@@ -46,7 +46,7 @@ const Projects = () => {
           <div
             key={idx}
             className="bg-white w-full md:w-[80%] mx-auto mb-10 shadow-lg rounded-xl overflow-hidden flex flex-col md:flex-row"
-          >
+              data-aos="fade-right" >
             <div className="w-full md:w-1/2 p-6">
               <h2 className="text-2xl font-semibold text-blue-600 mb-2">
                 {project.title}  

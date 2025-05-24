@@ -9,10 +9,10 @@ import { Link } from 'react-router-dom';
 
 const ProfileSection = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center pt-[130px] md:pt-[200px] relative " >
+    <div className="flex flex-col md:flex-row items-center pt-[130px] md:pt-[200px] relative ">
     <div className="m-4 w-full md:w-[50%]  bg-gray-600 h-[80vh] fixed  top-[70px] hidden xl:hidden md:block rounded-md max-w-7xl"></div>
     <div className="md:ml-[35%] p-6 md:p-12 w-full md:w-[60%] z-10 flex flex-col md:flex-row gap-8 xl:m-auto">
-      <div className="bg-gray-800 p-7 rounded shadow-md text-center w-full md:w-[30%] min-w-[280px] ">
+      <div className="bg-gray-800 p-7 rounded shadow-md text-center w-full md:w-[30%] min-w-[280px] " data-aos="fade-right">
         <img
           src={image}
           alt="Profile"
@@ -28,7 +28,7 @@ const ProfileSection = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-[60%]">
+      <div className="w-full md:w-[60%]" data-aos="fade-left">
         <h1 className="text-6xl font-bold font-sans">Hello</h1>
         <h2 className="text-xl font-light mt-6">Here's who I am & what I do</h2>
         <div className="mt-6 flex gap-4">
